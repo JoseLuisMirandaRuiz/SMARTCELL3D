@@ -1,0 +1,8 @@
+database/*.sqlite*
+database/.jwt_secret
+frontend/uploads/productos/*
+frontend/uploads/promociones/*
+!frontend/uploads/.htaccess
+
+# Credenciales de PayPal (nunca subir a GitHub)
+backend/src/paypal.local.php
